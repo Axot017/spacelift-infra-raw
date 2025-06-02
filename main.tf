@@ -19,5 +19,5 @@ provider "spacelift" {
 
 resource "spacelift_context" "test_context" {
   count = 4
-  name  = "raw-test-context-${count.index}-2"
+  name  = "raw-test-context-${count.index}-3"
 }
